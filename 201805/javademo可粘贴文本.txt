@@ -1,7 +1,7 @@
 1. 父pom文件中的parent标签配置
 
 <parent>
-	<groupId>com.accenture.smsf</groupId>
+	<groupId>com.scgao.smsf</groupId>
 	<artifactId>smsf-framework-parent</artifactId>
 	<version>1.0.0</version>
 </parent>
@@ -9,7 +9,7 @@
 	
 2. web-jetty容器
 <dependency>
-	<groupId>com.accenture.smsf</groupId>
+	<groupId>com.scgao.smsf</groupId>
 	<artifactId>starter-web-jetty</artifactId>
 </dependency>
 	
@@ -30,7 +30,7 @@ spring:
 
 swagger:
   sandbox:
-   basePackage: com.accenture.java.demo.controller
+   basePackage: com.scgao.java.demo.controller
 
 server:
   port: 10099
